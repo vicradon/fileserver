@@ -148,6 +148,6 @@ func main() {
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/upload", uploadHandler)
 
-	fmt.Println("Server running on http://localhost:3100")
-	http.ListenAndServe(":3100", nil)
+	fmt.Println("Server running on http://localhost:4333")
+	http.ListenAndServe(":4333", nil)
 }
